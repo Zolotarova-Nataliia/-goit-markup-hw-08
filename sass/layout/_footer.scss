@@ -3,26 +3,60 @@
   padding: 60px 15px;
 }
 
-.footer__content {
+.footer__adresswrapper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+    align-items: start;
+    text-align: left;
+  }
 }
 
-.footer__adresswrapper {
-  margin-right: 70px;
+.footer__container {
+  margin-bottom: -60px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: start;
+  }
 }
 
 .footer__socialwrapper {
-  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+  align-items: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 12px;
+    align-items: start;
+  }
 }
 
 .footer__tagline {
-  font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  @media screen and (min-width: 768px) {
+    margin-top: 7px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+  }
 }
 
 .footer__list {
@@ -48,7 +82,6 @@
 }
 
 .footer__adress {
-  font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -57,7 +90,6 @@
 
 .footer__mail,
 .footer__tel {
-  font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -65,22 +97,42 @@
 }
 
 .footer__subscription {
-  margin-left: auto;
-  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: auto;
+    margin-left: auto;
+    align-items: start;
+    margin-top: 12px;
+  }
 }
 
 .footer__form {
-  display: flex;
-  height: 50px;
   margin-top: 20px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+  }
 }
 
 .footer__email {
-  width: 358px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding-left: 16px;
-  font-family: var(--main-font);
+
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -88,14 +140,21 @@
   letter-spacing: 0.03em;
   color: #fff;
   border-radius: 4px;
+  height: 50px;
+  margin-bottom: 20px;
+  width: 100%;
 
   &::placeholder {
     color: rgba(255, 255, 255, 0.6);
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-right: 12px;
+  }
 }
 
 .footer__btn {
-  margin-left: 12px;
 }
 
 .footer__social {

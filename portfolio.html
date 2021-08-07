@@ -21,7 +21,7 @@
   </head>
   <body class="body">
     <!---header-->
-    <header class="header">
+    <!-- <header class="header">
       <div class="container header__container">
         <nav class="navigation">
           <a class="logo header__logo" href="./index.html" lang="en"
@@ -60,7 +60,7 @@
           </li>
         </ul>
       </div>
-    </header>
+    </header> -->
     <main>
       <section class="main-content">
         <ul class="main-content__tabs list container">
@@ -80,100 +80,122 @@
             <button class="main-content__btn" type="button">Маркетинг</button>
           </li>
         </ul>
-        <ul class="projects-list list container">
-          <li class="projects-list__item">
-            <div class="projects-list__img">
-              <img src="./images/our-projects/technokryak.jpg" alt="ноутбук" />
-              <p class="projects-list__overlay">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </div>
-            <div class="project">
-              <h3 class="project__title">Технокряк</h3>
-              <p class="project__category">Веб-сайт</p>
-            </div>
-          </li>
-          <li class="projects-list__item">
-            <img
-              src="./images/our-projects/poster.jpg"
-              alt="Постер New Orlean vs Golden Star"
-            />
-            <div class="project">
-              <h3 class="project__title">Постер New Orlean vs Golden Star</h3>
-              <p class="project__category">Дизайн</p>
-            </div>
-          </li>
-          <li class="projects-list__item">
-            <img src="./images/our-projects/seafood.jpg" alt="постер с рыбой" />
-            <div class="project">
-              <h3 class="project__title">Ресторан Seafood</h3>
-              <p class="project__category">Приложение</p>
-            </div>
-          </li>
-          <li class="projects-list__item">
-            <img
-              src="./images/our-projects/project-prime.jpg"
-              alt=" наушники "
-            />
-            <div class="project">
-              <h3 class="project__title">Проект Prime</h3>
-              <p class="project__category">Маркетинг</p>
-            </div>
-          </li>
-          <li class="projects-list__item">
-            <img
-              src="./images/our-projects/project-boxes.jpg"
-              alt=" коробки "
-            />
-            <div class="project">
-              <h3 class="project__title">Проект Boxes</h3>
-              <p class="project__category">Приложение</p>
-            </div>
-          </li>
-          <li class="projects-list__item">
-            <img
-              src="./images/our-projects/inspiration-has-no-borders.jpg"
-              alt=" монитор "
-            />
-            <div class="project">
-              <h3 class="project__title">Inspiration has no Borders</h3>
-              <p class="project__category">Веб-сайт</p>
-            </div>
-          </li>
-          <li class="projects-list__item">
-            <img
-              src="./images/our-projects/limited-edition.jpg"
-              alt=" открытая книга "
-            />
-            <div class="project">
-              <h3 class="project__title">Издание Limited Edition</h3>
-              <p class="project__category">Дизайн</p>
-            </div>
-          </li>
-          <li class="projects-list__item">
-            <img src="./images/our-projects/project-lab.jpg" alt=" этикетка " />
-            <div class="project">
-              <h3 class="project__title">Проект LAB</h3>
-              <p class="project__category">Маркетинг</p>
-            </div>
-          </li>
-          <li class="projects-list__item">
-            <img
-              src="./images/our-projects/growing-business.jpg"
-              alt="человек печатает на ноутбуке"
-            />
-            <div class="project">
-              <h3 class="project__title">Growing Business</h3>
-              <p class="project__category">Приложение</p>
-            </div>
-          </li>
-        </ul>
+        <div class="container projects">
+          <ul class="projects__list list">
+            <li class="projects__item">
+              <div class="projects__img">
+                <img
+                  class="projects__pic"
+                  src="./images/our-projects/technokryak.jpg"
+                  alt="ноутбук"
+                />
+                <div class="projects__overlay">
+                  <p class="projects__desc">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </div>
+              </div>
+              <div class="project">
+                <h3 class="project__title">Технокряк</h3>
+                <p class="project__category">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <img
+                class="projects__pic"
+                src="./images/our-projects/poster.jpg"
+                alt="Постер New Orlean vs Golden Star"
+              />
+              <div class="project">
+                <h3 class="project__title">Постер New Orlean vs Golden Star</h3>
+                <p class="project__category">Дизайн</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <img
+                class="projects__pic"
+                src="./images/our-projects/seafood.jpg"
+                alt="постер с рыбой"
+              />
+              <div class="project">
+                <h3 class="project__title">Ресторан Seafood</h3>
+                <p class="project__category">Приложение</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <img
+                class="projects__pic"
+                src="./images/our-projects/project-prime.jpg"
+                alt=" наушники "
+              />
+              <div class="project">
+                <h3 class="project__title">Проект Prime</h3>
+                <p class="project__category">Маркетинг</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <img
+                class="projects__pic"
+                src="./images/our-projects/project-boxes.jpg"
+                alt=" коробки "
+              />
+              <div class="project">
+                <h3 class="project__title">Проект Boxes</h3>
+                <p class="project__category">Приложение</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <img
+                class="projects__pic"
+                src="./images/our-projects/inspiration-has-no-borders.jpg"
+                alt=" монитор "
+              />
+              <div class="project">
+                <h3 class="project__title">Inspiration has no Borders</h3>
+                <p class="project__category">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <img
+                class="projects__pic"
+                src="./images/our-projects/limited-edition.jpg"
+                alt=" открытая книга "
+              />
+              <div class="project">
+                <h3 class="project__title">Издание Limited Edition</h3>
+                <p class="project__category">Дизайн</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <img
+                class="projects__pic"
+                src="./images/our-projects/project-lab.jpg"
+                alt=" этикетка "
+              />
+              <div class="project">
+                <h3 class="project__title">Проект LAB</h3>
+                <p class="project__category">Маркетинг</p>
+              </div>
+            </li>
+            <li class="projects__item">
+              <img
+                class="projects__pic"
+                src="./images/our-projects/growing-business.jpg"
+                alt="человек печатает на ноутбуке"
+              />
+              <div class="project">
+                <h3 class="project__title">Growing Business</h3>
+                <p class="project__category">Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__content container">
+      <div class="container footer__container">
         <div class="footer__adresswrapper">
           <a class="footer__logo logo" href="./index.html" lang="en">
             <span class="logo__part">Web</span>Studio
