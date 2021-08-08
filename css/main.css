@@ -495,6 +495,7 @@ img {
 @media screen and (min-width: 1200px) {
   .header__list {
     flex-wrap: nowrap;
+    margin-bottom: 0;
   }
 }
 
@@ -563,6 +564,12 @@ img {
   fill: var(--paragraph-color);
   transition: fill var(--animation);
 }
+@media screen and (min-width: 1200px) {
+  .header__mail-icon,
+.header__tel-icon {
+    margin-right: 10px;
+  }
+}
 
 .header__tel-link {
   font-weight: 500;
@@ -596,6 +603,7 @@ img {
   align-items: center;
   width: 40px;
   height: 40px;
+  transition: fill var(--animation);
 }
 .btn-open:hover .btn-open__icon {
   fill: var(--accent-color);
@@ -619,6 +627,10 @@ img {
   position: absolute;
   right: 14px;
   top: -29px;
+  transition: fill var(--animation);
+}
+.mob-menu__close:hover .mob-menu__icon, .mob-menu__close:focus .mob-menu__icon {
+  fill: var(--accent-color);
 }
 
 .mob-menu {
@@ -629,6 +641,8 @@ img {
   width: 100vw;
   height: 100vh;
   padding: 48px 0 48px 40px;
+  z-index: 1;
+  transition: opacity 500ms linear, visibility 500ms linear;
 }
 .mob-menu .container {
   position: relative;
@@ -655,6 +669,13 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #212121;
+  transition: color var(--animation);
+}
+.mob-menu-list__link:hover, .mob-menu-list__link:focus {
+  color: var(--accent-color);
+}
+.mob-menu-list__link--current {
+  color: var(--accent-color);
 }
 
 .mob-menu-list__item:not(:last-child) {
@@ -665,7 +686,16 @@ img {
   margin-bottom: 64px;
 }
 
-.mob-menu-contacts__link {
+.mob-menu-contacts__tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.mob-menu-contacts__mail {
   font-weight: 500;
   font-size: 24px;
   line-height: 1.16;
