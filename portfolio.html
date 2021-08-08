@@ -145,11 +145,61 @@
           <ul class="projects__list list">
             <li class="projects__item">
               <div class="projects__img">
-                <img
-                  class="projects__pic"
-                  src="./images/our-projects/technokryak.jpg"
-                  alt="ноутбук"
-                />
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/desktop/portfolio/img.webp    1x,
+                      ./images/desktop/portfolio/img@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="
+                      ./images/desktop/portfolio/img.jpg    1x,
+                      ./images/desktop/portfolio/img@2x.jpg 2x
+                    "
+                  />
+
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/portfolio/img.webp    1x,
+                      ./images/tablet/portfolio/img@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/tablet/portfolio/img.jpg    1x,
+                      ./images/tablet/portfolio/img@2x.jpg 2x
+                    "
+                  />
+
+                  <source
+                    media="(min-width: 480px)"
+                    srcset="
+                      ./images/phone/portfolio/img.webp    1x,
+                      ./images/phone/portfolio/img@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    media="(min-width: 480px)"
+                    srcset="
+                      ./images/phone/portfolio/img.jpg    1x,
+                      ./images/phone/portfolio/img@2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="projects__pic"
+                    src="./images/phone/portfolio/img.jpg"
+                    alt="ноутбук"
+                  />
+                </picture>
+
                 <div class="projects__overlay">
                   <p class="projects__desc">
                     Технокряк это современная площадка распространения
@@ -164,88 +214,482 @@
               </div>
             </li>
             <li class="projects__item">
-              <img
-                class="projects__pic"
-                src="./images/our-projects/poster.jpg"
-                alt="Постер New Orlean vs Golden Star"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-1.webp    1x,
+                    ./images/desktop/portfolio/img-1@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-1.jpg    1x,
+                    ./images/desktop/portfolio/img-1@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-1.webp    1x,
+                    ./images/tablet/portfolio/img-1@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-1.jpg    1x,
+                    ./images/tablet/portfolio/img-1@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-1.webp    1x,
+                    ./images/phone/portfolio/img-1@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-1.jpg    1x,
+                    ./images/phone/portfolio/img-1@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="projects__pic"
+                  src="./images/phone/portfolio/img-1.jpg"
+                  alt="Постер New Orlean vs Golden Star"
+                />
+              </picture>
               <div class="project">
                 <h3 class="project__title">Постер New Orlean vs Golden Star</h3>
                 <p class="project__category">Дизайн</p>
               </div>
             </li>
             <li class="projects__item">
-              <img
-                class="projects__pic"
-                src="./images/our-projects/seafood.jpg"
-                alt="постер с рыбой"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-2.webp    1x,
+                    ./images/desktop/portfolio/img-2@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-2.jpg    1x,
+                    ./images/desktop/portfolio/img-2@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-2.webp    1x,
+                    ./images/tablet/portfolio/img-2@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-2.jpg    1x,
+                    ./images/tablet/portfolio/img-2@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-2.webp    1x,
+                    ./images/phone/portfolio/img-2@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-2.jpg    1x,
+                    ./images/phone/portfolio/img-2@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="projects__pic"
+                  src="./images/phone/portfolio/img-2.jpg"
+                  alt="постер с рыбой"
+                />
+              </picture>
               <div class="project">
                 <h3 class="project__title">Ресторан Seafood</h3>
                 <p class="project__category">Приложение</p>
               </div>
             </li>
             <li class="projects__item">
-              <img
-                class="projects__pic"
-                src="./images/our-projects/project-prime.jpg"
-                alt=" наушники "
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-3.webp    1x,
+                    ./images/desktop/portfolio/img-3@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-3.jpg    1x,
+                    ./images/desktop/portfolio/img-3@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-3.webp    1x,
+                    ./images/tablet/portfolio/img-3@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-3.jpg    1x,
+                    ./images/tablet/portfolio/img-3@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-3.webp    1x,
+                    ./images/phone/portfolio/img-3@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-3.jpg    1x,
+                    ./images/phone/portfolio/img-3@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="projects__pic"
+                  src="./images/phone/portfolio/img-3.jpg"
+                  alt="наушники"
+                />
+              </picture>
               <div class="project">
                 <h3 class="project__title">Проект Prime</h3>
                 <p class="project__category">Маркетинг</p>
               </div>
             </li>
             <li class="projects__item">
-              <img
-                class="projects__pic"
-                src="./images/our-projects/project-boxes.jpg"
-                alt=" коробки "
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-4.webp    1x,
+                    ./images/desktop/portfolio/img-4@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-4.jpg    1x,
+                    ./images/desktop/portfolio/img-4@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-4.webp    1x,
+                    ./images/tablet/portfolio/img-4@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-4.jpg    1x,
+                    ./images/tablet/portfolio/img-4@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-4.webp    1x,
+                    ./images/phone/portfolio/img-4@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-4.jpg    1x,
+                    ./images/phone/portfolio/img-4@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="projects__pic"
+                  src="./images/phone/portfolio/img-4.jpg"
+                  alt=" коробки "
+                />
+              </picture>
+
               <div class="project">
                 <h3 class="project__title">Проект Boxes</h3>
                 <p class="project__category">Приложение</p>
               </div>
             </li>
             <li class="projects__item">
-              <img
-                class="projects__pic"
-                src="./images/our-projects/inspiration-has-no-borders.jpg"
-                alt=" монитор "
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-5.webp    1x,
+                    ./images/desktop/portfolio/img-5@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-5.jpg    1x,
+                    ./images/desktop/portfolio/img-5@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-5.webp    1x,
+                    ./images/tablet/portfolio/img-5@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-5.jpg    1x,
+                    ./images/tablet/portfolio/img-5@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-5.webp    1x,
+                    ./images/phone/portfolio/img-5@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-5.jpg    1x,
+                    ./images/phone/portfolio/img-5@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="projects__pic"
+                  src="./images/phone/portfolio/img-5.jpg"
+                  alt=" монитор "
+                />
+              </picture>
+
               <div class="project">
                 <h3 class="project__title">Inspiration has no Borders</h3>
                 <p class="project__category">Веб-сайт</p>
               </div>
             </li>
             <li class="projects__item">
-              <img
-                class="projects__pic"
-                src="./images/our-projects/limited-edition.jpg"
-                alt=" открытая книга "
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-6.webp    1x,
+                    ./images/desktop/portfolio/img-6@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-6.jpg    1x,
+                    ./images/desktop/portfolio/img-6@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-6.webp    1x,
+                    ./images/tablet/portfolio/img-6@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-6.jpg    1x,
+                    ./images/tablet/portfolio/img-6@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-6.webp    1x,
+                    ./images/phone/portfolio/img-6@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-6.jpg    1x,
+                    ./images/phone/portfolio/img-6@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="projects__pic"
+                  src="./images/phone/portfolio/img-6.jpg"
+                  alt="открытая книга"
+                />
+              </picture>
               <div class="project">
                 <h3 class="project__title">Издание Limited Edition</h3>
                 <p class="project__category">Дизайн</p>
               </div>
             </li>
             <li class="projects__item">
-              <img
-                class="projects__pic"
-                src="./images/our-projects/project-lab.jpg"
-                alt=" этикетка "
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-7.webp    1x,
+                    ./images/desktop/portfolio/img-7@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-7.jpg    1x,
+                    ./images/desktop/portfolio/img-7@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-7.webp    1x,
+                    ./images/tablet/portfolio/img-7@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-7.jpg    1x,
+                    ./images/tablet/portfolio/img-7@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-7.webp    1x,
+                    ./images/phone/portfolio/img-7@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-7.jpg    1x,
+                    ./images/phone/portfolio/img-7@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="projects__pic"
+                  src="./images/phone/portfolio/img-7.jpg"
+                  alt=" этикетка "
+                />
+              </picture>
               <div class="project">
                 <h3 class="project__title">Проект LAB</h3>
                 <p class="project__category">Маркетинг</p>
               </div>
             </li>
             <li class="projects__item">
-              <img
-                class="projects__pic"
-                src="./images/our-projects/growing-business.jpg"
-                alt="человек печатает на ноутбуке"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-8.webp    1x,
+                    ./images/desktop/portfolio/img-8@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/desktop/portfolio/img-8.jpg    1x,
+                    ./images/desktop/portfolio/img-8@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-8.webp    1x,
+                    ./images/tablet/portfolio/img-8@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="
+                    ./images/tablet/portfolio/img-8.jpg    1x,
+                    ./images/tablet/portfolio/img-8@2x.jpg 2x
+                  "
+                />
+
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-8.webp    1x,
+                    ./images/phone/portfolio/img-8@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  media="(min-width: 480px)"
+                  srcset="
+                    ./images/phone/portfolio/img-8.jpg    1x,
+                    ./images/phone/portfolio/img-8@2x.jpg 2x
+                  "
+                />
+                <img
+                  class="projects__pic"
+                  src="./images/phone/portfolio/img-8.jpg"
+                  alt="человек печатает на ноутбуке"
+                />
+              </picture>
               <div class="project">
                 <h3 class="project__title">Growing Business</h3>
                 <p class="project__category">Приложение</p>
