@@ -161,12 +161,13 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .main-title {
     font-size: 36px;
     line-height: 1.16;
+    margin-bottom: 50px;
   }
 }
 
@@ -1030,7 +1031,6 @@ img {
 
 .footer {
   background-color: #2f303a;
-  padding: 60px 15px;
 }
 
 .footer__adresswrapper {
@@ -1050,6 +1050,7 @@ img {
 
 .footer__container {
   margin-bottom: -60px;
+  padding: 60px 15px;
 }
 @media screen and (min-width: 768px) {
   .footer__container {
